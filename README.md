@@ -44,3 +44,48 @@ REVAMP is a JavaFX-based application designed to provide a seamless experience f
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/your-username/revamp-smart-marketplace.git
+
+Navigate to the Project Directory
+
+bash
+Copy code
+cd revamp-smart-marketplace
+Install Dependencies
+
+Ensure you have JDK 11 or higher installed.
+Install a JavaFX library if not bundled with your IDE.
+Database Setup
+
+Import the provided SQL script (schema.sql) into your database management system (MySQL or SQLite).
+Update database credentials in the DBHandler.java file.
+Run the Application
+
+Open the project in your IDE (e.g., IntelliJ IDEA, Eclipse).
+Set the main class to Main.java.
+Build and run the project.
+Project Structure
+graphql
+Copy code
+src/
+├── controllers/          # JavaFX controllers for FXML views
+├── models/               # Core business logic and data structures
+├── views/                # FXML files for UI design
+├── utils/                # Utility classes (e.g., database handlers)
+└── Main.java             # Entry point of the application
+Screenshots
+Login Page
+
+Customer Dashboard
+
+Contributing
+Fork the repository.
+Create a new branch (feature-name).
+Commit changes and push them to your fork.
+Open a pull request for review.
+License
+This project is licensed under the MIT License.
+
+Contact
+Muhammad Ali - GitHub
+Moaz Farooq - GitHub
+Abdullah Azeem - GitHub
